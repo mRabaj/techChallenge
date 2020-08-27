@@ -1,0 +1,131 @@
+/* GENERAL*/
+body {
+  background: white;
+  font-size: 15px;
+}
+.content {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+/*HEADER*/
+header {
+  width: 100%;
+  float: left;
+  height: 100px;
+  background: black;
+}
+#logo {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+#logo > img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+nav {
+  width: auto;
+  max-width: 80%;
+  float: left;
+  overflow: hidden;
+  padding-left: 15%;
+  padding-top: 25px;
+}
+nav a:hover {
+  color: #760001;
+  border-bottom: 3px solid #760001;
+}
+.navigation-ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+.navigation-ul > li {
+  width: auto;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.navigation-ul > li > a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*MIDLLE-CONTENT*/
+.content-middle {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  background: url("assets/ship-at-sea.jpg") no-repeat top center;
+}
+
+.content-bottom {
+  float: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content-bottom > p {
+}
+
+footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+.content-footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.content-footer > a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+
+#heroes {
+  padding: 10px;
+}
+.titre-royal {
+  text-align: center;
+}
+
+#inventory {
+  padding-top: 50px;
+  padding-bottom: 440px;
+}
+.titre-assets {
+  text-align: left;
+}
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 440px;
+}
+.titre-contact {
+  text-align: left;
+}
